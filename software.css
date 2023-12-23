@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&family=Righteous&display=swap');
+
+/*----//  Esto es para que no aparezca el cuadro azul al hacer clic en los  link en dispositivos moviles  //----*/
+* {
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0) !important; 
+    -webkit-focus-ring-color: rgba(255, 255, 255, 0) !important; 
+    outline: none !important;
+  }
+  
+  
+  body {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      background-color: #242A38;
+      height: 100vh;
+      user-select: none;
+  }
+  
+  /*-----//  Esto es para que el scrollbar sea invisible  //--------*/
+  
+  body::-webkit-scrollbar {
+      opacity: 0;
+      width: 1px;
+  }
+  
+  
+  /*--------------------------------------------//  Header  //---------------------------------------------------*/
+  
+  .header {
+      display: flex ;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px;
+      position: fixed;
+      width: 100%;
+      background-color: #242A38;
+  
+  
+  }
+  
+  .links a {
+      text-decoration: none;
+      color: white ;
+      font-size: 0.9rem;
+      font-family: 'Josefin Sans', sans-serif;
+      text-transform: uppercase;
+      padding: 5px;
+      
+  
+  }
+
+
+
+  .links a .span-home {
+    color: #ffffff;
+    border:none ;
+    padding: 7px 15px 7px 0;
+    border-right: 3px solid #0072FF;
+    border-radius: 0;
+}
+
+.links a .span-home:hover {
+    color: #0072FF;
+    transition: 170ms;
+    border-color: #ffffff;
+}
+
+
+.links a span {
+  color: #ffffff;
+  border:none ;
+  border-bottom: 3px solid;
+  border-radius: 0px;
+  border-color: #0072FF;
+}
+  
+  .links a:hover {
+      color: #0072FF;
+      transition: 170ms;
+  }
+  
+  .links {
+      display: flex;
+      justify-content: space-evenly ;
+      align-items: center;
+      gap: 25px;
+  }
+  
+ 
+  .nl{
+      color: #0072FF;
+  }
+  
+  .btn-checkbox {
+      display: none;
+  }
+  
+  .nav_menu {
+      display: none;
+  }
+  
+  .error {
+       display: none;
+  }
+  
+  .link-contact {
+      display: none;
+  }
+
+
+  .logo {
+    margin-left: 20px;
+  }
+
+
+  .btn-contact a{
+    text-decoration: none;
+    color: white ;
+    font-family: 'Josefin Sans', sans-serif;
+    text-transform: uppercase;
+}
+
+.btn-contact {
+    margin-right: 20px;
+    padding: 5px;
+    border: none;
+    border-radius:10px ;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: white;
+    cursor: pointer;
+    background-color: #0072FF;
+    text-transform: uppercase;
+
+}
+
+.btn-contact:hover {
+    box-shadow:0 0 10px #0072FF;
+    transition: 150ms;
+}
+
+
+/* copyright */
+
+  .copyright {
+    font-family:sans-serif;
+    font-size: small;
+    color: white;
+    letter-spacing: 2px;
+    position: relative;
+    top: 98%;
+}

@@ -1,0 +1,62 @@
+                            
+                            
+                            /\//////////////////////////////////////////////////////////////\                     
+                            |------> MEDIA QUERIES FOR DISPOSITIVOS RESPONSIVE DESING <-----|
+                            \/\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\/
+
+
+
+--- Telefonos moviles:
+
+@media only screen and (max-width: 767px) {
+
+  /* Estilos para teléfonos móviles */
+
+}
+
+
+
+--- Tablets:
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+
+  /* Estilos para tabletas */
+
+}
+
+
+
+--- Tablets y computadoras portatiles:
+
+@media only screen and (min-width: 1024px) and (max-width: 1279px) {
+
+  /* Estilos para tabletas y computadoras portátiles */
+
+}
+
+
+
+--- Computadoras portatiles y pantallas de escritorio:
+
+@media only screen and (min-width: 1280px) {
+
+  /* Estilos para computadoras portátiles y pantallas de escritorio */
+
+}
+
+
+
+--- Orientactión:
+
+@media only screen and (orientation: landscape) {
+
+  /* Estilos específicos para orientación horizontal */
+
+}
+
+@media only screen and (orientation: portrait) {
+
+  /* Estilos específicos para orientación vertical */
+  
+}
+

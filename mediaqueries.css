@@ -1,0 +1,195 @@
+/*--------------------------//  Media Queries - error404  //-------------------------*/
+
+@media  (max-width: 250px) {
+
+    .about {
+        display: none;
+    }
+
+    .copyright {
+        display: none;
+    }
+
+    .home {
+        display: none;
+    }
+
+    .error {
+        display: block;
+        color: #0DD275;
+        font-family: 'Righteous', cursive;
+
+    }
+    .header {
+        display: none;
+    }
+
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+
+/*-----------------------------------//  Media Queries Briefcase - Portafolio  //---------------------------------*/
+@media (max-width:813px) {
+
+
+
+}
+
+
+/*-----------------------------------//  Media Queries 830px Index - Home  //---------------------------------*/
+
+
+@media (max-width:830px){
+
+    .about {
+    padding: 10% 10%;
+    color: white;
+    font-family: sans-serif;
+    font-size: 1rem;
+    align-items: center;
+    display: flex;
+    justify-content:flex-start ;
+    flex-direction: column;
+
+    }
+
+    .a-btn-contact {
+        display: none;
+    }
+
+
+    .p-about {
+        line-height: 1.3rem;
+    }
+
+    .link-contact {
+        display: block;
+    }
+
+    
+    .btn-checkbox {
+        display: block;
+        position: absolute;
+        opacity: 0;
+        left: 91.5%;
+    }
+
+    .btn-contact {
+        display: none;
+    }
+
+    .nav_menu {
+        display: block;
+    }
+
+    .links {
+        position: fixed;
+        top: 53px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 95%;
+        background-color: #1d222c;
+        padding: 20px 0;
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+        transition: clip-path 500ms ease-in-out;
+    }
+
+    .btn-checkbox:checked + .links {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+
+
+    }
+
+    .links a {
+        font-size: large;
+        width: 50%;
+        display: flex;
+        justify-content: center;
+    }
+
+
+
+    .nav_img {
+        display: block;
+        height: 24px;
+        margin-right: 20px;
+    }
+
+    .name-logo {
+        font-size: 1.7em;
+    }
+
+    .error {
+        display: none;
+    }
+
+    .home {
+    height: 100%;
+    text-transform: uppercase;
+    display: flex;
+    color: white;
+    background-size: cover;
+    }
+
+    .texto-dinamico {
+        line-height: 2rem;
+        font-size: 2.6rem;
+    }
+
+    .texto-estatico {
+    color: #0072FF;
+    font-size: 2.5rem;
+    margin-left: 6.3%;
+    animation: entrada 2s ease-in-out;
+    line-height: 2rem;
+
+    }
+
+    .contactos {
+        padding: 80px 0;
+        margin: 0;
+    }
+
+    .link-correo {
+        display: flex;
+        justify-content: center;
+    }
+    .btn-correo-contact {
+        margin: 0 0 50px 0;
+        width: 50%;
+        padding: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .btn-correo-contact span {
+        font-size: small;
+    }
+
+
+    .container-contact {
+        padding: 0;
+    }
+
+    .redes-sociales {
+        margin: 0;
+    }
+
+    .about {
+        height: 65%;
+    }
+
+
+    .link-correo {
+        font-size: 1em;
+    }
+
+} 
